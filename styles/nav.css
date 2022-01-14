@@ -1,0 +1,40 @@
+
+/* Common style */
+body{}
+
+
+/* header style */
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{}
+.logo img{}
+.navbar{}
+
+nav > ul > li{
+    list-style: none;
+    display: inline;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+li:hover a{
+    background-color:  #FF008E;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+/* Banner Section  */
+.banner{}
+.banner-details{}
+.bannner-title{}
+.banner-details{}
+.banner-btn{}
+.banner-photo{}
+.banner-photo img{}
