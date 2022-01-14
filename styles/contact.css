@@ -1,0 +1,36 @@
+.contact-form{
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    padding: 30px 40px;
+}
+.contact-icon{}
+.contact-icon img{
+    width: 70%;
+}
+.form{
+    width: 80%;
+}
+input[type=text],[type=email], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+      width: 100%;
+    margin-left: 0;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: transparent;
+    color: #FF008E;
+  }
+  

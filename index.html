@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./styles/feature.css">
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/gallery.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
 <body>
@@ -178,7 +180,36 @@
                 </div>
             </div>
         </section>
+        <section class="container">
+            <div class="contact-form">
+                <div class="contact-icon">
+                    <img src="./images/contact.png" alt="">
+                </div>
+                <div class="form">
+                    <form action="">
+
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email..">
+
+
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write something.."
+                            style="height:200px"></textarea>
+
+                        <input type="submit" class="banner-btn" value="Submit">
+
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <p>&copy; Copyright Silvaan 2022</p>
+    </footer>
 </body>
 
 </html>

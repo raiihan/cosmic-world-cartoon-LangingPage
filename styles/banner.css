@@ -26,7 +26,8 @@
     margin-left: 22px;
 }
 .banner-btn:hover{
-    background-color: transparent;;
+    background-color: transparent;
+    color: #FF008E;
     transition: .5s linear;
     cursor: pointer;
 }

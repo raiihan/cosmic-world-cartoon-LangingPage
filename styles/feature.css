@@ -27,6 +27,9 @@
     margin-left: 0;
     margin-bottom: 10px;
 }
+.feature-btn:hover{
+    color: #FF008E;
+}
 
 
 
