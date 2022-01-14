@@ -1,6 +1,14 @@
 
 /* Common style */
 body{}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 970px;
+}
 
 
 /* header style */
@@ -30,11 +38,4 @@ li:hover a{
     color: whitesmoke;
 }
 
-/* Banner Section  */
-.banner{}
-.banner-details{}
-.bannner-title{}
-.banner-details{}
-.banner-btn{}
-.banner-photo{}
-.banner-photo img{}
+

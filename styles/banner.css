@@ -1,0 +1,37 @@
+/* Banner Section  */
+.banner{
+    display: flex;
+    background-image: url(../images/cloud.png);
+    background-repeat: no-repeat;
+    height: 80vh;
+    align-items: center;
+}
+.banner-details{
+    
+    width: 65%;
+}
+.bannner-title{
+    padding-left: 25px;
+}
+.banner-details{ 
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.banner-btn{
+    background-color: #FF008E;
+    padding: 5px 15px;
+    border: 3px solid #FF008E;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 22px;
+}
+.banner-btn:hover{
+    background-color: transparent;;
+    transition: .5s linear;
+    cursor: pointer;
+}
+.banner-photo{}
+.banner-photo img{
+    width: 80%;
+    margin-left: 50px;
+}
