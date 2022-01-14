@@ -1,8 +1,15 @@
 .about{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 5px;
 }
 .about-left{}
 .about-left img{
     width: 100%;
 }
-.about-heading{}
+.about-heading{
+    font-size: 50px;
+    color: #FF008E;
+}

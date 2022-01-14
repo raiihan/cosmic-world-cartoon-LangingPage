@@ -8,15 +8,18 @@ main{
 }
 .container{
     width: 970px;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 
 /* header style */
-
+header{
+    background-color: lightgray;
+}
 .logo-nav{
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 .logo{}
 .logo img{}
