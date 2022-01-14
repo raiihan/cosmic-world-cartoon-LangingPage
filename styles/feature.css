@@ -1,16 +1,32 @@
-.features{}
+.features{
+    display: flex;
+    justify-content: space-between;
+}
 .feature{
-    width: 240px;
+    width: 225px;
+    background-color: lightgray;
+    border-radius: 8px;
 
 }
-.feature-incon{}
-.feature-incon img{
-    width: 50%;
+.feature-incon{
+    margin: 0 45px;
 }
-.feature-info{}
-.feature-title{}
-.feature-details{}
-.feature-btn{}
+.feature-incon img{
+    width: 80%;
+}
+.feature-info{
+    margin: 0 45px;
+}
+.feature-title{
+    font-size: 18px;
+}
+.feature-details{
+    font-size: 12px;
+}
+.feature-btn{
+    margin-left: 0;
+    margin-bottom: 10px;
+}
 
 
 

@@ -1,0 +1,8 @@
+.about{
+    display: flex;
+}
+.about-left{}
+.about-left img{
+    width: 100%;
+}
+.about-heading{}
